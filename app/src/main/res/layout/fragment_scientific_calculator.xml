@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.ScientificCalculatorFragment">
+
+    <LinearLayout
+        style="@style/llCalculator"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tvSecondarySC"
+            style="@style/tvSecondary" />
+
+        <TextView
+            android:id="@+id/tvPrimarySC"
+            style="@style/tvPrimary" />
+
+    </LinearLayout>
+
+    <View style="@style/line" />
+
+    <LinearLayout
+        style="@style/llCalculator"
+        android:layout_weight="2">
+
+        <LinearLayout style="@style/btRow">
+
+            <Button
+                android:id="@+id/btACSC"
+                style="@style/btOpSmall"
+                android:text="AC"
+                tools:targetApi="lollipop" />
+
+            <Button
+                android:id="@+id/btDeleteSC"
+                style="@style/btOpSmall"
+                android:text="⌫" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/btRow">
+
+            <Button
+                android:id="@+id/btLog"
+                style="@style/btOpSmall"
+                android:text="log" />
+
+            <Button
+                android:id="@+id/btLn"
+                style="@style/btOpSmall"
+                android:text="ln" />
+
+            <Button
+                android:id="@+id/btBracketOpenSC"
+                style="@style/btOpSmall"
+                android:text="(" />
+
+            <Button
+                android:id="@+id/btBracketCloseSC"
+                style="@style/btOpSmall"
+                android:text=")" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/btRow">
+
+            <Button
+                android:id="@+id/btSin"
+                style="@style/btOpSmall"
+                android:text="sin" />
+
+            <Button
+                android:id="@+id/btCos"
+                style="@style/btOpSmall"
+                android:text="cos" />
+
+            <Button
+                android:id="@+id/btTan"
+                style="@style/btOpSmall"
+                android:text="tan" />
+
+            <Button
+                android:id="@+id/btSqrt"
+                style="@style/btOpSmall"
+                android:text="√" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/btRow">
+
+            <Button
+                android:id="@+id/btFactorial"
+                style="@style/btOpSmall"
+                android:text="x!" />
+
+            <Button
+                android:id="@+id/btSquare"
+                style="@style/btOpSmall"
+                android:text="x²" />
+
+            <Button
+                android:id="@+id/btInverted"
+                style="@style/btOpSmall"
+                android:text="1/x" />
+
+            <Button
+                android:id="@+id/btDivisionSC"
+                style="@style/btOpSmall"
+                android:text="÷" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/btRow">
+
+            <Button
+                android:id="@+id/bt7SC"
+                style="@style/btNumSmall"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/bt8SC"
+                style="@style/btNumSmall"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/bt9SC"
+                style="@style/btNumSmall"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/btMultiplicationSC"
+                style="@style/btOpSmall"
+                android:text="×" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/btRow">
+
+            <Button
+                android:id="@+id/bt4SC"
+                style="@style/btNumSmall"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/bt5SC"
+                style="@style/btNumSmall"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/bt6SC"
+                style="@style/btNumSmall"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/btSubtractionSC"
+                style="@style/btOpSmall"
+                android:text="-" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/btRow">
+
+            <Button
+                android:id="@+id/bt1SC"
+                style="@style/btNumSmall"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/bt2SC"
+                style="@style/btNumSmall"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/bt3SC"
+                style="@style/btNumSmall"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/btAdditionSC"
+                style="@style/btOpSmall"
+                android:text="+" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/btRow">
+
+            <Button
+                android:id="@+id/btPi"
+                style="@style/btOpSmall"
+                android:text="π" />
+
+            <Button
+                android:id="@+id/bt0SC"
+                style="@style/btNumSmall"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/btDotSC"
+                style="@style/btNumSmall"
+                android:text="." />
+
+            <Button
+                android:id="@+id/btEqualSC"
+                style="@style/btOpSmall"
+                android:background="@drawable/ripple_effect"
+                android:text="="
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

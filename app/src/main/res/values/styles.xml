@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="fontStyle">
+        <item name="fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="mainMenuIcons">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="tabs">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="tabBackground">@color/black</item>
+        <item name="tabGravity">fill</item>
+        <item name="tabInlineLabel">true</item>
+        <item name="tabMode">fixed</item>
+        <item name="tabSelectedTextColor">@color/white</item>
+        <item name="tabTextAppearance">@android:style/TextAppearance.Widget.TabWidget</item>
+        <item name="tabTextColor">@color/gray</item>
+    </style>
+
+    <style name="tvStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/dayNightColor</item>
+        <item name="autoSizeTextType">uniform</item>
+        <item name="fontFamily">sans-serif-light</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="llCalculator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="btRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="btNumSmall">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:textSize">34sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="btNumBig">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:textSize">42sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="btOpSmall">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="btOpBig">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="sp">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="backgroundTint">@color/gray</item>
+        <item name="android:clickable">false</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style name="fabBig">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="backgroundTint">@color/colorPrimary</item>
+        <item name="borderWidth">0dp</item>
+        <item name="fabSize">mini</item>
+    </style>
+
+    <style name="fabBigInv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="backgroundTint">@color/colorPrimary</item>
+        <item name="borderWidth">0dp</item>
+        <item name="fabSize">mini</item>
+        <item name="android:visibility">invisible</item>
+        <item name="android:enabled">false</item>
+    </style>
+
+    <style name="tvPrimary">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:layout_marginTop">32dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:textColor">@color/dayNightColor</item>
+        <item name="android:textAlignment">textEnd</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="autoSizeTextType">uniform</item>
+        <item name="android:maxLength">15</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="tvSecondary">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginBottom">32dp</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:textColor">?android:textColorHint</item>
+        <item name="android:textAlignment">textEnd</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="autoSizeTextType">uniform</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="sbRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="sb">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_weight">9</item>
+        <item name="android:layout_marginStart">16dp</item>
+    </style>
+
+    <style name="tvText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">32dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/dayNightColor</item>
+        <item name="fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="tvNum">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">?android:textColorHint</item>
+        <item name="fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="line">
+        <item name="android:layout_width">370dp</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@color/dayNightColor</item>
+    </style>
+</resources>

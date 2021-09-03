@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.BasicCalculatorFragment">
+
+    <LinearLayout
+        style="@style/llCalculator"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tvSecondaryBC"
+            style="@style/tvSecondary" />
+
+        <TextView
+            android:id="@+id/tvPrimaryBC"
+            style="@style/tvPrimary" />
+
+    </LinearLayout>
+
+    <View style="@style/line" />
+
+    <LinearLayout
+        style="@style/llCalculator"
+        android:layout_weight="2">
+
+        <LinearLayout style="@style/btRow">
+
+            <Button
+                android:id="@+id/btACBC"
+                style="@style/btOpBig"
+                android:text="AC" />
+
+            <Button
+                android:id="@+id/btDeleteBC"
+                style="@style/btOpBig"
+                android:text="⌫" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/btRow">
+
+            <Button
+                android:id="@+id/btBracketOpenBC"
+                style="@style/btOpBig"
+                android:text="(" />
+
+            <Button
+                android:id="@+id/btBracketCloseBC"
+                style="@style/btOpBig"
+                android:text=")" />
+
+            <Button
+                android:id="@+id/btPercentage"
+                style="@style/btOpBig"
+                android:text="%" />
+
+            <Button
+                android:id="@+id/btDivisionBC"
+                style="@style/btOpBig"
+                android:text="÷" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/btRow">
+
+            <Button
+                android:id="@+id/bt7BC"
+                style="@style/btNumBig"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/bt8BC"
+                style="@style/btNumBig"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/bt9BC"
+                style="@style/btNumBig"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/btMultiplicationBC"
+                style="@style/btOpBig"
+                android:text="×" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/btRow">
+
+            <Button
+                android:id="@+id/bt4BC"
+                style="@style/btNumBig"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/bt5BC"
+                style="@style/btNumBig"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/bt6BC"
+                style="@style/btNumBig"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/btSubtractionBC"
+                style="@style/btOpBig"
+                android:text="-" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/btRow">
+
+            <Button
+                android:id="@+id/bt1BC"
+                style="@style/btNumBig"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/bt2BC"
+                style="@style/btNumBig"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/bt3BC"
+                style="@style/btNumBig"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/btAdditionBC"
+                style="@style/btOpSmall"
+                android:text="+" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/btRow">
+
+            <Button
+                style="@style/btOpBig"
+                android:enabled="false" />
+
+            <Button
+                android:id="@+id/bt0BC"
+                style="@style/btNumBig"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/btDotBC"
+                style="@style/btNumBig"
+                android:text="." />
+
+            <Button
+                android:id="@+id/btEqualBC"
+                style="@style/btOpBig"
+                android:background="@drawable/ripple_effect"
+                android:text="="
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

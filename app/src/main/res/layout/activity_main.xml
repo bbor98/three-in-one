@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <ImageButton
+        android:id="@+id/btCalculator"
+        style="@style/mainMenuIcons"
+        app:srcCompat="@drawable/ic_outline_calculate_108"
+        app:layout_constraintBottom_toTopOf="@+id/btConverter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btConverter"
+        style="@style/mainMenuIcons"
+        app:srcCompat="@drawable/ic_outline_repeat_108"
+        app:layout_constraintBottom_toTopOf="@+id/btTimer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btCalculator" />
+
+    <ImageButton
+        android:id="@+id/btTimer"
+        style="@style/mainMenuIcons"
+        app:srcCompat="@drawable/ic_outline_timer_108"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btConverter" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

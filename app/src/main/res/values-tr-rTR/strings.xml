@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Üçü Bir Arada</string>
+
+    <string name="calculator">Hesap Makinesi</string>
+    <string name="unit_converter">Birim Dönüştürücü</string>
+    <string name="timer">Zamanlayıcı</string>
+
+    <string name="basic_calculator">Basit Hesap Makinesi</string>
+    <string name="scientific_calculator">Bilimsel Hesap Makinesi</string>
+
+    <string name="enter_number">Önce sayıyı girin</string>
+    <string name="invalid_input">Geçersiz giriş</string>
+
+    <string name="stopwatch">Kronometre</string>
+    <string name="countdown_timer">Geri Sayım Saati</string>
+    <string name="counter">Sayaç</string>
+
+    <string name="equals_to">eşittir</string>
+    <string name="select_a_unit">Birim seç</string>
+
+    <string name="api_error">Servis hatası, rahatsızlıktan dolayı özür dileriz</string>
+
+    <string name="hours">Saat</string>
+    <string name="minutes">Dakika</string>
+    <string name="seconds">Saniye</string>
+
+    <string name="angle">Açı</string>
+    <string name="area">Alan</string>
+    <string name="currency">Döviz</string>
+    <string name="data">Veri</string>
+    <string name="energy">Enerji</string>
+    <string name="force">Kuvvet</string>
+    <string name="length">Uzunluk</string>
+    <string name="power">Güç</string>
+    <string name="pressure">Basınç</string>
+    <string name="speed">Hız</string>
+    <string name="temperature">Sıcaklık</string>
+    <string name="time">Zaman</string>
+    <string name="volume">Hacim</string>
+    <string name="weight">Ağırlık</string>
+
+    <string name="degree">Derece (°)</string>
+    <string name="radian">Radyan (rad)</string>
+    <string name="arcsecond">Açısal saniye (″)</string>
+    <string name="arcminute">Açısal dakika (\')</string>
+
+    <string name="acre">Dönüm (ac)</string>
+    <string name="are">Ar (a)</string>
+    <string name="hectare">Hektar (ha)</string>
+    <string name="decare">Dekar (daa)</string>
+    <string name="square_foot">Ayakkare (ft²)</string>
+    <string name="square_millimeter">Milimetrekare (mm²)</string>
+    <string name="square_centimeter">Santimetrekare (cm²)</string>
+    <string name="square_decimeter">Decimetre kare (dm²)</string>
+    <string name="square_meter">Metrekare (m²)</string>
+    <string name="square_hectometer">Hektometrekare (hm²)</string>
+    <string name="square_kilometer">Kilometrekare (km²)</string>
+    <string name="square_mile">Milkare (mi²)</string>
+    <string name="square_yard">Yardakare (yd²)</string>
+    <string name="square_inch">İnçkare (in²)</string>
+
+    <string name="argentine_peso">Arjantin Pesosu (ARS)</string>
+    <string name="australian_dollar">Avustralya Doları (AUD)</string>
+    <string name="azerbaijan_manat">Azerbaycan Manatı (AZN)</string>
+    <string name="bahraini_dinar">Bahreyn Dinarı (BHD)</string>
+    <string name="brazilian_real">Brezilya Reali (BRL)</string>
+    <string name="british_pound">İngiliz Sterlini (GBP)</string>
+    <string name="bulgarian_lev">Bulgar Levası (BGN)</string>
+    <string name="canadian_dollar">Kanada Doları (CAD)</string>
+    <string name="chinese_yuan_renminbi">Çin Yuanı (CNY)</string>
+    <string name="croatian_kuna">Hırvatistan Kunası (HRK)</string>
+    <string name="czech_koruna">Çek Korunası (CZK)</string>
+    <string name="danish_krone">Danimarka Kronu (DKK)</string>
+    <string name="emirati_dirham">Birleşik Arap Emirlikleri Dirhemi (AED)</string>
+    <string name="euro">Euro (EUR)</string>
+    <string name="hong_Kong_dollar">Hong Kong Doları  (HKD)</string>
+    <string name="hungarian_forint">Macar Forinti (HUF)</string>
+    <string name="iceland_krona">İzlanda Kronu (ISK)</string>
+    <string name="indian_rupee">Hindistan Rupisi (INR)</string>
+    <string name="indonesian_rupiah">Endonezya Rupisi (IDR)</string>
+    <string name="israeli_new_shekel">Yeni İsrail Şekeli (ILS)</string>
+    <string name="japanese_yen">Japon Yeni (JPY)</string>
+    <string name="kuwaiti_dinar">Kuveyt Dinarı (KWD)</string>
+    <string name="malaysian_ringgit">Malezya Ringgiti (MYR)</string>
+    <string name="mexican_peso">Meksika Pesosu (MXN)</string>
+    <string name="new_zealand_dollar">Yeni Zelanda Doları (NZD)</string>
+    <string name="norwegian_kroner">Norveç Kronu (NOK)</string>
+    <string name="philippine_peso">Filipin Pesosu (PHP)</string>
+    <string name="polish_zloty">Polonya Zlotisi (PLN)</string>
+    <string name="qatari_rial">Katar Riyali (QAR)</string>
+    <string name="romanian_new_lei">Rumen Leyi (RON)</string>
+    <string name="russian_rouble">Rus Rublesi (RUB)</string>
+    <string name="singapore_dollar">Singapur Doları (SGD)</string>
+    <string name="south_african_rand">Güney Afrika Randı (ZAR)</string>
+    <string name="south_korean_won">Güney Kore Wonu (KRW)</string>
+    <string name="swedish_krona">İsveç Kronu (SEK)</string>
+    <string name="swiss_franc">İsviçre Frangı (CHF)</string>
+    <string name="thai_baht">Tayland Bahtı (THB)</string>
+    <string name="turkish_lira">Türk Lirası (TRY)</string>
+    <string name="us_dollar">ABD Doları (USD)</string>
+    <string name="bitcoin">Bitcoin (BTC)</string>
+
+    <string name="bit">Bit (b)</string>
+    <string name="megabit">Megabit (Mb)</string>
+    <string name="sbyte">Bayt (B)</string>
+    <string name="Kilobyte">Kilobayt (KB)</string>
+    <string name="megabyte">Megabayt (MB)</string>
+    <string name="gigabyte">Gigabayt (GB)</string>
+    <string name="terabyte">Terabayt (TB)</string>
+    <string name="petabyte">Petabyte (PB)</string>
+
+    <string name="joule">Jul (J)</string>
+    <string name="kilojoule">Kilojul (kJ)</string>
+    <string name="calorie">Kalori (cal)</string>
+    <string name="kilocalorie">Kilokalori (kcal)</string>
+
+    <string name="newton">Newton (N)</string>
+    <string name="kilonewton">Kilonewton (kN)</string>
+    <string name="meganewton">Meganewton (MN)</string>
+    <string name="pond">Pond (p)</string>
+
+    <string name="nanometer">Nanometre (nm)</string>
+    <string name="micrometer">Mikrometre (μm)</string>
+    <string name="millimeter">Milimetre (mm)</string>
+    <string name="centimeter">Santimetre (cm)</string>
+    <string name="decimeter">Desimetre (dm)</string>
+    <string name="meter">Metre (m)</string>
+    <string name="kilometer">Kilometre (km)</string>
+    <string name="mile">Mil (mi)</string>
+    <string name="nautical_mile">Deniz mili (nmi)</string>
+    <string name="foot">Ayak (ft)</string>
+    <string name="yard">Yarda (yd)</string>
+    <string name="inch">İnç (in)</string>
+    <string name="light_year">Işık yılı (ly)</string>
+
+    <string name="watt">Watt (W)</string>
+    <string name="kilowatt">Kilowatt (kW)</string>
+    <string name="megawatt">Megawatt (MW)</string>
+    <string name="gigawatt">Gigawatt (GW)</string>
+    <string name="terawatt">Terawatt (TW)</string>
+    <string name="petawatt">Petawatt (PW)</string>
+    <string name="horsepower">Beygir (hp)</string>
+    <string name="ton_of_refrigeration">Ton soğutma (TR)</string>
+    <string name="british_thermal_unit">İngiliz ısı birimi (BTU)</string>
+
+    <string name="millibar">Milibar (mbar)</string>
+    <string name="bar">Bar</string>
+    <string name="pascal">Paskal (Pa)</string>
+    <string name="hectopascal">Hektopaskal (hPa)</string>
+    <string name="kilopascal">Kilopaskal (kPa)</string>
+    <string name="megapascal">Megapaskal (MPa)</string>
+    <string name="gigapascal">Gigapaskal (GPa)</string>
+
+    <string name="meter_second">Metre/Saniye (m/sn)</string>
+    <string name="meter_minute">Metre/Dakika (m/dak)</string>
+    <string name="meter_hour">Metre/Saat (m/sa)</string>
+    <string name="kilometer_second">Kilometre/Saniye (km/sn)</string>
+    <string name="kilometer_minute">Kilometre/Dakika (km/dak)</string>
+    <string name="kilometer_hour">Kilometre/Saat (km/sa)</string>
+    <string name="mile_second">Mil/Saniye (mi/sn)</string>
+    <string name="mile_minute">Mil/Dakika (mi/dak)</string>
+    <string name="mile_hour">Mil/Saat (mi/sa)</string>
+    <string name="foot_second">Ayak/Saniye (ft/sn)</string>
+    <string name="foot_minute">Ayak/Dakika (ft/dak)</string>
+    <string name="foot_hour">Ayak/Saat (ft/sa)</string>
+    <string name="yard_second">Yarda/Saniye (yd/sn)</string>
+    <string name="yard_minute">Yarda/Dakika (yd/dak)</string>
+    <string name="yard_hour">Yarda/Saat (yd/sa)</string>
+    <string name="knot">Knot (kn)</string>
+    <string name="mach">Mach (20°C\\\'de, 1 atm\\\'de)</string>
+    <string name="speed_of_light">Işık hızı (c)</string>
+
+    <string name="m_s">m/sn</string>
+    <string name="m_min">m/dak</string>
+    <string name="m_h">m/sa</string>
+    <string name="km_s">km/sn</string>
+    <string name="km_min">km/dak</string>
+    <string name="km_h">km/sa</string>
+    <string name="mi_s">mi/sn</string>
+    <string name="mi_min">mi/dak</string>
+    <string name="mi_h">mi/sa</string>
+    <string name="ft_s">ft/sn</string>
+    <string name="ft_min">ft/dak</string>
+    <string name="ft_h">ft/sa</string>
+    <string name="yd_s">yd/sn</string>
+    <string name="yd_min">yd/dak</string>
+    <string name="yd_h">yd/sa</string>
+    <string name="kn">kn</string>
+    <string name="ma">Ma</string>
+    <string name="c">c</string>
+
+    <string name="celsius">Santigrat (°C)</string>
+    <string name="fahrenheit">Fahrenhayt (°F)</string>
+    <string name="kelvin">Kelvin (°K)</string>
+    <string name="rankine">Rankine (°R)</string>
+    <string name="reaumur">Réaumur (°Ré)</string>
+
+    <string name="nanosecond">Nanosaniye (ns)</string>
+    <string name="microsecond">Mikrosaniye (μs)</string>
+    <string name="millisecond">Milisaniye (ms)</string>
+    <string name="second">Saniye (sn)</string>
+    <string name="minute">Dakika (dak)</string>
+    <string name="hour">Saat (sa)</string>
+    <string name="day">Gün (gün)</string>
+    <string name="week">Hafta (haf)</string>
+    <string name="month">Ay (ay)</string>
+    <string name="year">Yıl (yıl)</string>
+
+    <string name="ns">ns</string>
+    <string name="us">μs</string>
+    <string name="ms">ms</string>
+    <string name="sec">sn</string>
+    <string name="min">dak</string>
+    <string name="h">sa</string>
+    <string name="d">gün</string>
+    <string name="wk">haf</string>
+    <string name="mo">ay</string>
+    <string name="yr">yıl</string>
+
+    <string name="cubic_millimeter">Milimetreküp (mm³)</string>
+    <string name="cubic_centimeter">Santimetreküp (cm³)</string>
+    <string name="cubic_decimeter">Desimetreküp (dm³)</string>
+    <string name="cubic_meter">Metreküp (m³)</string>
+    <string name="cubic_kilometer">Kilometreküp (km³)</string>
+    <string name="liter">Litre (L)</string>
+    <string name="deciliter">Desilitre (dL)</string>
+    <string name="centiliter">Santilitre (cL)</string>
+    <string name="milliliter">Mililitre (mL)</string>
+    <string name="hectoliter">Hektolitre (hL)</string>
+    <string name="kiloliter">Kilolitre (kL)</string>
+    <string name="cup">Kap (c)</string>
+    <string name="gallon">Galon (gal)</string>
+
+    <string name="microgram">Mikrogram (μg)</string>
+    <string name="milligram">Miligram (mg)</string>
+    <string name="gram">Gram (g)</string>
+    <string name="hectogram">Hektogram (hg)</string>
+    <string name="kilogram">Kilogram (kg)</string>
+    <string name="pound">Libre (lb)</string>
+    <string name="ounce">Ons (oz)</string>
+    <string name="carat">Karat (ct)</string>
+    <string name="grain">Tahıl (gr)</string>
+    <string name="metric_ton">Metrik ton (t)</string>
+    <string name="short_ton">Kısa ton (st)</string>
+    <string name="long_ton">Uzun ton (lt)</string>
+    <string name="psi">Libre-kuvvet/İnçkare (psi)</string>
+    <string name="ksi">Kilolibre-kuvvet/İnçkare (psi)</string>
+    <string name="grad">Grad (gon)</string>
+</resources>

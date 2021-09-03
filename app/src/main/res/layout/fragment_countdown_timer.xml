@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.CountdownTimerFragment">
+
+    <TextView
+        android:id="@+id/tvCountdownTimer"
+        style="@style/tvStyle"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="64dp"
+        android:text="00:00:00"
+        app:layout_constraintBottom_toTopOf="@+id/cl"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/fabPauseCD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCountdownTimer">
+
+        <TextView
+            android:id="@+id/tvHours"
+            style="@style/tvText"
+            android:text="@string/hours"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/llHours"
+            style="@style/sbRow"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvHours">
+
+            <SeekBar
+                android:id="@+id/sbHour"
+                style="@style/sb"
+                android:max="23" />
+
+            <TextView
+                android:id="@+id/tvHour"
+                style="@style/tvNum"
+                tools:text="23" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvMinutes"
+            style="@style/tvText"
+            android:text="@string/minutes"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/llHours" />
+
+        <LinearLayout
+            android:id="@+id/llMinutes"
+            style="@style/sbRow"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvMinutes">
+
+            <SeekBar
+                android:id="@+id/sbMinute"
+                style="@style/sb"
+                android:max="59" />
+
+            <TextView
+                android:id="@+id/tvMinute"
+                style="@style/tvNum"
+                tools:text="59" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvSeconds"
+            style="@style/tvText"
+            android:text="@string/seconds"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/llMinutes" />
+
+        <LinearLayout
+            style="@style/sbRow"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvSeconds">
+
+            <SeekBar
+                android:id="@+id/sbSecond"
+                style="@style/sb"
+                android:max="59" />
+
+            <TextView
+                android:id="@+id/tvSecond"
+                style="@style/tvNum"
+                tools:text="59" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabStartCD"
+        style="@style/fabBig"
+        app:srcCompat="@drawable/ic_baseline_play_arrow_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cl"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabStopCD"
+        style="@style/fabBigInv"
+        app:srcCompat="@drawable/ic_baseline_stop_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cl"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabPauseCD"
+        style="@style/fabBigInv"
+        app:srcCompat="@drawable/ic_baseline_pause_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cl"
+        app:layout_constraintVertical_bias="0.5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

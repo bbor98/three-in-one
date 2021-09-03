@@ -1,0 +1,663 @@
+<resources>
+    <string name="app_name">Three In One</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+    <string name="calculator">Calculator</string>
+    <string name="unit_converter">Unit Converter</string>
+    <string name="timer">Timer</string>
+
+    <string name="basic_calculator">Basic Calculator</string>
+    <string name="scientific_calculator">Scientific Calculator</string>
+
+    <string name="enter_number">Enter a number first</string>
+    <string name="invalid_input">Invalid input</string>
+
+    <string name="stopwatch">Stopwatch</string>
+    <string name="countdown_timer">Countdown Timer</string>
+    <string name="counter">Counter</string>
+
+    <string name="equals_to">equals to</string>
+    <string name="select_a_unit">Select a unit</string>
+
+    <string name="api_error">Service error, sorry for the inconvenience</string>
+
+    <string name="hours">Hours</string>
+    <string name="minutes">Minutes</string>
+    <string name="seconds">Seconds</string>
+
+    <string name="angle">Angle</string>
+    <string name="area">Area</string>
+    <string name="currency">Currency</string>
+    <string name="data">Data</string>
+    <string name="energy">Energy</string>
+    <string name="force">Force</string>
+    <string name="length">Length</string>
+    <string name="power">Power</string>
+    <string name="pressure">Pressure</string>
+    <string name="speed">Speed</string>
+    <string name="temperature">Temperature</string>
+    <string name="time">Time</string>
+    <string name="volume">Volume</string>
+    <string name="weight">Weight</string>
+
+    <string name="degree">Degree (°)</string>
+    <string name="radian">Radian (rad)</string>
+    <string name="grad">Grad (gon)</string>
+    <string name="arcsecond">Arcsecond (″)</string>
+    <string name="arcminute">Arcminute (\')</string>
+
+    <string-array name="angle">
+        <item>@string/degree</item>
+        <item>@string/radian</item>
+        <item>@string/grad</item>
+        <item>@string/arcsecond</item>
+        <item>@string/arcminute</item>
+    </string-array>
+
+    <string-array name="angle_abb">
+        <item>°</item>
+        <item>rad</item>
+        <item>gon</item>
+        <item>″</item>
+        <item>\'</item>
+    </string-array>
+
+    <string name="acre">Acre (ac)</string>
+    <string name="are">Are (a)</string>
+    <string name="decare">Decare (daa)</string>
+    <string name="hectare">Hectare (ha)</string>
+    <string name="square_foot">Square foot (ft²)</string>
+    <string name="square_millimeter">Square millimeter (mm²)</string>
+    <string name="square_centimeter">Square centimeter (cm²)</string>
+    <string name="square_decimeter">Square decimeter (dm²)</string>
+    <string name="square_meter">Square meter (m²)</string>
+    <string name="square_hectometer">Square hectometer (hm²)</string>
+    <string name="square_kilometer">Square kilometer (km²)</string>
+    <string name="square_mile">Square mile (mi²)</string>
+    <string name="square_yard">Square yard (yd²)</string>
+    <string name="square_inch">Square inch (in²)</string>
+
+    <string-array name="area">
+        <item>@string/acre</item>
+        <item>@string/are</item>
+        <item>@string/decare</item>
+        <item>@string/hectare</item>
+        <item>@string/square_foot</item>
+        <item>@string/square_millimeter</item>
+        <item>@string/square_centimeter</item>
+        <item>@string/square_decimeter</item>
+        <item>@string/square_meter</item>
+        <item>@string/square_hectometer</item>
+        <item>@string/square_kilometer</item>
+        <item>@string/square_mile</item>
+        <item>@string/square_yard</item>
+        <item>@string/square_inch</item>
+    </string-array>
+
+    <string-array name="area_abb">
+        <item>ac</item>
+        <item>a</item>
+        <item>daa</item>
+        <item>ha</item>
+        <item>ft²</item>
+        <item>mm²</item>
+        <item>cm²</item>
+        <item>dm²</item>
+        <item>m²</item>
+        <item>hm²</item>
+        <item>km²</item>
+        <item>mi²</item>
+        <item>yd²</item>
+        <item>in²</item>
+    </string-array>
+
+    <string name="argentine_peso">Argentine Peso (ARS)</string>
+    <string name="australian_dollar">Australian Dollar (AUD)</string>
+    <string name="azerbaijan_manat">Azerbaijan Manat (AZN)</string>
+    <string name="bahraini_dinar">Bahraini Dinar (BHD)</string>
+    <string name="brazilian_real">Brazilian Real (BRL)</string>
+    <string name="british_pound">British Pound (GBP)</string>
+    <string name="bulgarian_lev">Bulgarian Lev (BGN)</string>
+    <string name="canadian_dollar">Canadian Dollar (CAD)</string>
+    <string name="chinese_yuan_renminbi">Chinese Yuan Renminbi (CNY)</string>
+    <string name="croatian_kuna">Croatian Kuna (HRK)</string>
+    <string name="czech_koruna">Czech Koruna (CZK)</string>
+    <string name="danish_krone">Danish Krone (DKK)</string>
+    <string name="emirati_dirham">Emirati Dirham (AED)</string>
+    <string name="euro">Euro (EUR)</string>
+    <string name="hong_Kong_dollar">Hong Kong Dollar (HKD)</string>
+    <string name="hungarian_forint">Hungarian Forint (HUF)</string>
+    <string name="iceland_krona">Iceland Krona (ISK)</string>
+    <string name="indian_rupee">Indian Rupee (INR)</string>
+    <string name="indonesian_rupiah">Indonesian Rupiah (IDR)</string>
+    <string name="israeli_new_shekel">Israeli New Shekel (ILS)</string>
+    <string name="japanese_yen">Japanese Yen (JPY)</string>
+    <string name="kuwaiti_dinar">Kuwaiti Dinar (KWD)</string>
+    <string name="malaysian_ringgit">Malaysian Ringgit (MYR)</string>
+    <string name="mexican_peso">Mexican Peso (MXN)</string>
+    <string name="new_zealand_dollar">New Zealand Dollar (NZD)</string>
+    <string name="norwegian_kroner">Norwegian Kroner (NOK)</string>
+    <string name="philippine_peso">Philippine Peso (PHP)</string>
+    <string name="polish_zloty">Polish Zloty (PLN)</string>
+    <string name="qatari_rial">Qatari Rial (QAR)</string>
+    <string name="romanian_new_lei">Romanian New Lei (RON)</string>
+    <string name="russian_rouble">Russian Rouble (RUB)</string>
+    <string name="singapore_dollar">Singapore Dollar (SGD)</string>
+    <string name="south_african_rand">South African Rand (ZAR)</string>
+    <string name="south_korean_won">South Korean Won (KRW)</string>
+    <string name="swedish_krona">Swedish Krona (SEK)</string>
+    <string name="swiss_franc">Swiss Franc (CHF)</string>
+    <string name="thai_baht">Thai Baht (THB)</string>
+    <string name="turkish_lira">Turkish Lira (TRY)</string>
+    <string name="us_dollar">US Dollar (USD)</string>
+    <string name="bitcoin">Bitcoin (BTC)</string>
+
+    <string-array name="currency">
+        <item>@string/argentine_peso</item>
+        <item>@string/australian_dollar</item>
+        <item>@string/azerbaijan_manat</item>
+        <item>@string/bahraini_dinar</item>
+        <item>@string/brazilian_real</item>
+        <item>@string/british_pound</item>
+        <item>@string/bulgarian_lev</item>
+        <item>@string/canadian_dollar</item>
+        <item>@string/chinese_yuan_renminbi</item>
+        <item>@string/croatian_kuna</item>
+        <item>@string/czech_koruna</item>
+        <item>@string/danish_krone</item>
+        <item>@string/emirati_dirham</item>
+        <item>@string/euro</item>
+        <item>@string/hong_Kong_dollar</item>
+        <item>@string/hungarian_forint</item>
+        <item>@string/iceland_krona</item>
+        <item>@string/indian_rupee</item>
+        <item>@string/indonesian_rupiah</item>
+        <item>@string/israeli_new_shekel</item>
+        <item>@string/japanese_yen</item>
+        <item>@string/kuwaiti_dinar</item>
+        <item>@string/malaysian_ringgit</item>
+        <item>@string/mexican_peso</item>
+        <item>@string/new_zealand_dollar</item>
+        <item>@string/norwegian_kroner</item>
+        <item>@string/philippine_peso</item>
+        <item>@string/polish_zloty</item>
+        <item>@string/qatari_rial</item>
+        <item>@string/romanian_new_lei</item>
+        <item>@string/russian_rouble</item>
+        <item>@string/singapore_dollar</item>
+        <item>@string/south_african_rand</item>
+        <item>@string/south_korean_won</item>
+        <item>@string/swedish_krona</item>
+        <item>@string/swiss_franc</item>
+        <item>@string/thai_baht</item>
+        <item>@string/turkish_lira</item>
+        <item>@string/us_dollar</item>
+        <item>@string/bitcoin</item>
+    </string-array>
+
+    <string-array name="currency_abb">
+        <item>ARS</item>
+        <item>AUD</item>
+        <item>AZN</item>
+        <item>BHD</item>
+        <item>BRL</item>
+        <item>GBP</item>
+        <item>BGN</item>
+        <item>CAD</item>
+        <item>CNY</item>
+        <item>HRK</item>
+        <item>CZK</item>
+        <item>DKK</item>
+        <item>AED</item>
+        <item>EUR</item>
+        <item>HKD</item>
+        <item>HUF</item>
+        <item>ISK</item>
+        <item>INR</item>
+        <item>IDR</item>
+        <item>ILS</item>
+        <item>JPY</item>
+        <item>KWD</item>
+        <item>MYR</item>
+        <item>MXN</item>
+        <item>NZD</item>
+        <item>NOK</item>
+        <item>PHP</item>
+        <item>PLN</item>
+        <item>QAR</item>
+        <item>RON</item>
+        <item>RUB</item>
+        <item>SGD</item>
+        <item>ZAR</item>
+        <item>KRW</item>
+        <item>SEK</item>
+        <item>CHF</item>
+        <item>THB</item>
+        <item>TRY</item>
+        <item>USD</item>
+        <item>BTC</item>
+    </string-array>
+
+    <string name="bit">Bit (b)</string>
+    <string name="megabit">Megabit (Mb)</string>
+    <string name="sbyte">Byte (B)</string>
+    <string name="Kilobyte">Kilobyte (KB)</string>
+    <string name="megabyte">Megabyte (MB)</string>
+    <string name="gigabyte">Gigabyte (GB)</string>
+    <string name="terabyte">Terabyte (TB)</string>
+    <string name="petabyte">Petabyte (PB)</string>
+
+    <string-array name="data">
+        <item>@string/bit</item>
+        <item>@string/megabit</item>
+        <item>@string/sbyte</item>
+        <item>@string/Kilobyte</item>
+        <item>@string/megabyte</item>
+        <item>@string/gigabyte</item>
+        <item>@string/terabyte</item>
+        <item>@string/petabyte</item>
+    </string-array>
+
+    <string-array name="data_abb">
+        <item>b</item>
+        <item>Mb</item>
+        <item>B</item>
+        <item>KB</item>
+        <item>MB</item>
+        <item>GB</item>
+        <item>TB</item>
+        <item>PB</item>
+    </string-array>
+
+    <string name="joule">Joule (J)</string>
+    <string name="kilojoule">Kilojoule (kJ)</string>
+    <string name="calorie">Calorie (cal)</string>
+    <string name="kilocalorie">Kilocalorie (kcal)</string>
+
+    <string-array name="energy">
+        <item>@string/joule</item>
+        <item>@string/kilojoule</item>
+        <item>@string/calorie</item>
+        <item>@string/kilocalorie</item>
+    </string-array>
+
+    <string-array name="energy_abb">
+        <item>J</item>
+        <item>kJ</item>
+        <item>cal</item>
+        <item>kcal</item>
+    </string-array>
+
+    <string name="newton">Newton (N)</string>
+    <string name="kilonewton">Kilonewton (kN)</string>
+    <string name="meganewton">Meganewton (MN)</string>
+    <string name="pond">Pond (p)</string>
+
+    <string-array name="force">
+        <item>@string/newton</item>
+        <item>@string/kilonewton</item>
+        <item>@string/meganewton</item>
+        <item>@string/pond</item>
+    </string-array>
+
+    <string-array name="force_abb">
+        <item>N</item>
+        <item>kN</item>
+        <item>MN</item>
+        <item>p</item>
+    </string-array>
+
+    <string name="nanometer">Nanometer (nm)</string>
+    <string name="micrometer">Micrometer (μm)</string>
+    <string name="millimeter">Millimeter (mm)</string>
+    <string name="centimeter">Centimeter (cm)</string>
+    <string name="decimeter">Decimeter (dm)</string>
+    <string name="meter">Meter (m)</string>
+    <string name="kilometer">Kilometer (km)</string>
+    <string name="mile">Mile (mi)</string>
+    <string name="nautical_mile">Nautical mile (nmi)</string>
+    <string name="foot">Foot (ft)</string>
+    <string name="yard">Yard (yd)</string>
+    <string name="inch">Inch (in)</string>
+    <string name="light_year">Light year (ly)</string>
+
+    <string-array name="length">
+        <item>@string/nanometer</item>
+        <item>@string/micrometer</item>
+        <item>@string/millimeter</item>
+        <item>@string/centimeter</item>
+        <item>@string/decimeter</item>
+        <item>@string/meter</item>
+        <item>@string/kilometer</item>
+        <item>@string/mile</item>
+        <item>@string/nautical_mile</item>
+        <item>@string/foot</item>
+        <item>@string/yard</item>
+        <item>@string/inch</item>
+        <item>@string/light_year</item>
+    </string-array>
+
+    <string-array name="length_abb">
+        <item>nm</item>
+        <item>μm</item>
+        <item>mm</item>
+        <item>cm</item>
+        <item>dm</item>
+        <item>m</item>
+        <item>km</item>
+        <item>mi</item>
+        <item>nmi</item>
+        <item>ft</item>
+        <item>yd</item>
+        <item>in</item>
+        <item>ly</item>
+    </string-array>
+
+    <string name="watt">Watt (W)</string>
+    <string name="kilowatt">Kilowatt (kW)</string>
+    <string name="megawatt">Megawatt (MW)</string>
+    <string name="gigawatt">Gigawatt (GW)</string>
+    <string name="terawatt">Terawatt (TW)</string>
+    <string name="petawatt">Petawatt (PW)</string>
+    <string name="horsepower">Horsepower (hp)</string>
+    <string name="ton_of_refrigeration">Ton of refrigeration (TR)</string>
+    <string name="british_thermal_unit">British thermal unit (BTU)</string>
+
+    <string-array name="power">
+        <item>@string/watt</item>
+        <item>@string/kilowatt</item>
+        <item>@string/megawatt</item>
+        <item>@string/gigawatt</item>
+        <item>@string/terawatt</item>
+        <item>@string/petawatt</item>
+        <item>@string/horsepower</item>
+        <item>@string/ton_of_refrigeration</item>
+        <item>@string/british_thermal_unit</item>
+    </string-array>
+
+    <string-array name="power_abb">
+        <item>W</item>
+        <item>kW</item>
+        <item>MW</item>
+        <item>GW</item>
+        <item>TW</item>
+        <item>PW</item>
+        <item>hp</item>
+        <item>TR</item>
+        <item>BTU</item>
+    </string-array>
+
+    <string name="millibar">Millibar (mbar)</string>
+    <string name="bar">Bar</string>
+    <string name="psi">Pound-force/Sq.inch (psi)</string>
+    <string name="ksi">Kilopound-force/Sq.inch (ksi)</string>
+    <string name="pascal">Pascal (Pa)</string>
+    <string name="hectopascal">Hectopascal (hPa)</string>
+    <string name="kilopascal">Kilopascal (kPa)</string>
+    <string name="megapascal">Megapascal (MPa)</string>
+    <string name="gigapascal">Gigapascal (GPa)</string>
+
+    <string-array name="pressure">
+        <item>@string/millibar</item>
+        <item>@string/bar</item>
+        <item>@string/psi</item>
+        <item>@string/ksi</item>
+        <item>@string/pascal</item>
+        <item>@string/hectopascal</item>
+        <item>@string/kilopascal</item>
+        <item>@string/megapascal</item>
+        <item>@string/gigapascal</item>
+    </string-array>
+
+    <string-array name="pressure_abb">
+        <item>mbar</item>
+        <item>bar</item>
+        <item>psi</item>
+        <item>ksi</item>
+        <item>Pa</item>
+        <item>hPa</item>
+        <item>kPa</item>
+        <item>MPa</item>
+        <item>GPa</item>
+    </string-array>
+
+    <string name="meter_second">Meter/Second (m/s)</string>
+    <string name="meter_minute">Meter/Minute (m/min)</string>
+    <string name="meter_hour">Meter/Hour (m/h)</string>
+    <string name="kilometer_second">Kilometer/Second (km/s)</string>
+    <string name="kilometer_minute">Kilometer/Minute (km/min)</string>
+    <string name="kilometer_hour">Kilometer/Hour (km/h)</string>
+    <string name="mile_second">Mile/Second (mi/s)</string>
+    <string name="mile_minute">Mile/Minute (mi/min)</string>
+    <string name="mile_hour">Mile/Hour (mi/h)</string>
+    <string name="foot_second">Foot/Second (ft/s)</string>
+    <string name="foot_minute">Foot/Minute (ft/min)</string>
+    <string name="foot_hour">Foot/Hour (ft/h)</string>
+    <string name="yard_second">Yard/Second (yd/s)</string>
+    <string name="yard_minute">Yard/Minute (yd/min)</string>
+    <string name="yard_hour">Yard/Hour (yd/h)</string>
+    <string name="knot">Knot (kn)</string>
+    <string name="mach">Mach (at 20°C, 1 atm)</string>
+    <string name="speed_of_light">Speed of light (c)</string>
+
+    <string-array name="speed">
+        <item>@string/meter_second</item>
+        <item>@string/meter_minute</item>
+        <item>@string/meter_hour</item>
+        <item>@string/kilometer_second</item>
+        <item>@string/kilometer_minute</item>
+        <item>@string/kilometer_hour</item>
+        <item>@string/mile_second</item>
+        <item>@string/mile_minute</item>
+        <item>@string/mile_hour</item>
+        <item>@string/foot_second</item>
+        <item>@string/foot_minute</item>
+        <item>@string/foot_hour</item>
+        <item>@string/yard_second</item>
+        <item>@string/yard_minute</item>
+        <item>@string/yard_hour</item>
+        <item>@string/knot</item>
+        <item>@string/mach</item>
+        <item>@string/speed_of_light</item>
+    </string-array>
+
+    <string name="m_s">m/s</string>
+    <string name="m_min">m/min</string>
+    <string name="m_h">m/h</string>
+    <string name="km_s">km/s</string>
+    <string name="km_min">km/min</string>
+    <string name="km_h">km/h</string>
+    <string name="mi_s">mi/s</string>
+    <string name="mi_min">mi/min</string>
+    <string name="mi_h">mi/h</string>
+    <string name="ft_s">ft/s</string>
+    <string name="ft_min">ft/min</string>
+    <string name="ft_h">ft/h</string>
+    <string name="yd_s">yd/s</string>
+    <string name="yd_min">yd/min</string>
+    <string name="yd_h">yd/h</string>
+    <string name="kn">kn</string>
+    <string name="ma">Ma</string>
+    <string name="c">c</string>
+
+    <string-array name="speed_abb">
+        <item>@string/m_s</item>
+        <item>@string/m_min</item>
+        <item>@string/m_h</item>
+        <item>@string/km_s</item>
+        <item>@string/km_min</item>
+        <item>@string/km_h</item>
+        <item>@string/mi_s</item>
+        <item>@string/mi_min</item>
+        <item>@string/mi_h</item>
+        <item>@string/ft_s</item>
+        <item>@string/ft_min</item>
+        <item>@string/ft_h</item>
+        <item>@string/yd_s</item>
+        <item>@string/yd_min</item>
+        <item>@string/yd_h</item>
+        <item>@string/kn</item>
+        <item>@string/ma</item>
+        <item>@string/c</item>
+    </string-array>
+
+    <string name="celsius">Celsius (°C)</string>
+    <string name="fahrenheit">Fahenheit (°F)</string>
+    <string name="kelvin">Kelvin (°K)</string>
+    <string name="rankine">Rankine (°R)</string>
+    <string name="reaumur">Réaumur (°Ré)</string>
+
+    <string-array name="temperature">
+        <item>@string/celsius</item>
+        <item>@string/fahrenheit</item>
+        <item>@string/kelvin</item>
+        <item>@string/rankine</item>
+        <item>@string/reaumur</item>
+    </string-array>
+
+    <string-array name="temperature_abb">
+        <item>°C</item>
+        <item>°F</item>
+        <item>°K</item>
+        <item>°R</item>
+        <item>°Ré</item>
+    </string-array>
+
+    <string name="nanosecond">Nanosecond (ns)</string>
+    <string name="microsecond">Microsecond (μs)</string>
+    <string name="millisecond">Millisecond (ms)</string>
+    <string name="second">Second (sec)</string>
+    <string name="minute">Minute (min)</string>
+    <string name="hour">Hour (h)</string>
+    <string name="day">Day (d)</string>
+    <string name="week">Week (wk)</string>
+    <string name="month">Month (mo)</string>
+    <string name="year">Year (yr)</string>
+
+    <string-array name="time">
+        <item>@string/nanosecond</item>
+        <item>@string/microsecond</item>
+        <item>@string/millisecond</item>
+        <item>@string/second</item>
+        <item>@string/minute</item>
+        <item>@string/hour</item>
+        <item>@string/day</item>
+        <item>@string/week</item>
+        <item>@string/month</item>
+        <item>@string/year</item>
+    </string-array>
+
+    <string name="ns">ns</string>
+    <string name="us">μs</string>
+    <string name="ms">ms</string>
+    <string name="sec">sec</string>
+    <string name="min">min</string>
+    <string name="h">h</string>
+    <string name="d">d</string>
+    <string name="wk">wk</string>
+    <string name="mo">mo</string>
+    <string name="yr">yr</string>
+
+    <string-array name="time_abb">
+        <item>@string/ns</item>
+        <item>@string/us</item>
+        <item>@string/ms</item>
+        <item>@string/sec</item>
+        <item>@string/min</item>
+        <item>@string/h</item>
+        <item>@string/d</item>
+        <item>@string/wk</item>
+        <item>@string/mo</item>
+        <item>@string/yr</item>
+    </string-array>
+
+    <string name="cubic_millimeter">Cubic millimeter (mm³)</string>
+    <string name="cubic_centimeter">Cubic centimeter (cm³)</string>
+    <string name="cubic_decimeter">Cubic decimeter (dm³)</string>
+    <string name="cubic_meter">Cubic meter (m³)</string>
+    <string name="cubic_kilometer">Cubic kilometer (km³)</string>
+    <string name="milliliter">Milliliter (mL)</string>
+    <string name="centiliter">Centiliter (cL)</string>
+    <string name="deciliter">Deciliter (dL)</string>
+    <string name="liter">Liter (L)</string>
+    <string name="hectoliter">Hectoliter (hL)</string>
+    <string name="kiloliter">Kiloliter (kL)</string>
+    <string name="cup">Cup (c)</string>
+    <string name="gallon">Gallon (gal)</string>
+
+    <string-array name="volume">
+        <item>@string/cubic_millimeter</item>
+        <item>@string/cubic_centimeter</item>
+        <item>@string/cubic_decimeter</item>
+        <item>@string/cubic_meter</item>
+        <item>@string/cubic_kilometer</item>
+        <item>@string/milliliter</item>
+        <item>@string/centiliter</item>
+        <item>@string/deciliter</item>
+        <item>@string/liter</item>
+        <item>@string/hectoliter</item>
+        <item>@string/kiloliter</item>
+        <item>@string/cup</item>
+        <item>@string/gallon</item>
+    </string-array>
+
+    <string-array name="volume_abb">
+        <item>mm³</item>
+        <item>cm³</item>
+        <item>dm³</item>
+        <item>m³</item>
+        <item>km³</item>
+        <item>mL</item>
+        <item>cL</item>
+        <item>dL</item>
+        <item>L</item>
+        <item>hL</item>
+        <item>kL</item>
+        <item>c</item>
+        <item>gal</item>
+    </string-array>
+
+    <string name="microgram">Microgram (μg)</string>
+    <string name="milligram">Milligram (mg)</string>
+    <string name="gram">Gram (g)</string>
+    <string name="hectogram">Hectogram (hg)</string>
+    <string name="kilogram">Kilogram (kg)</string>
+    <string name="pound">Pound (lb)</string>
+    <string name="ounce">Ounce (oz)</string>
+    <string name="carat">Carat (ct)</string>
+    <string name="grain">Grain (gr)</string>
+    <string name="metric_ton">Metric ton (t)</string>
+    <string name="long_ton">Long ton (lt)</string>
+    <string name="short_ton">Short ton (st)</string>
+
+    <string-array name="weight">
+        <item>@string/microgram</item>
+        <item>@string/milligram</item>
+        <item>@string/gram</item>
+        <item>@string/hectogram</item>
+        <item>@string/kilogram</item>
+        <item>@string/pound</item>
+        <item>@string/ounce</item>
+        <item>@string/carat</item>
+        <item>@string/grain</item>
+        <item>@string/metric_ton</item>
+        <item>@string/long_ton</item>
+        <item>@string/short_ton</item>
+    </string-array>
+
+    <string-array name="weight_abb">
+        <item>μg</item>
+        <item>mg</item>
+        <item>g</item>
+        <item>hg</item>
+        <item>kg</item>
+        <item>lb</item>
+        <item>oz</item>
+        <item>ct</item>
+        <item>gr</item>
+        <item>t</item>
+        <item>lt</item>
+        <item>st</item>
+    </string-array>
+</resources>

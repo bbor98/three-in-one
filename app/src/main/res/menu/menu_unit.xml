@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/angle"
+        android:icon="@drawable/ic_angle"
+        android:title="@string/angle" />
+    <item
+        android:id="@+id/area"
+        android:icon="@drawable/ic_area"
+        android:title="@string/area" />
+    <item
+        android:id="@+id/currency"
+        android:icon="@drawable/ic_currency"
+        android:title="@string/currency" />
+    <item
+        android:id="@+id/data"
+        android:icon="@drawable/ic_data"
+        android:title="@string/data" />
+    <item
+        android:id="@+id/energy"
+        android:icon="@drawable/ic_energy"
+        android:title="@string/energy" />
+    <item
+        android:id="@+id/force"
+        android:icon="@drawable/ic_force"
+        android:title="@string/force" />
+    <item
+        android:id="@+id/length"
+        android:icon="@drawable/ic_length"
+        android:title="@string/length" />
+    <item
+        android:id="@+id/power"
+        android:icon="@drawable/ic_power"
+        android:title="@string/power" />
+    <item
+        android:id="@+id/pressure"
+        android:icon="@drawable/ic_pressure"
+        android:title="@string/pressure" />
+    <item
+        android:id="@+id/speed"
+        android:icon="@drawable/ic_speed"
+        android:title="@string/speed" />
+    <item
+        android:id="@+id/temperature"
+        android:icon="@drawable/ic_temperature"
+        android:title="@string/temperature" />
+    <item
+        android:id="@+id/time"
+        android:icon="@drawable/ic_time"
+        android:title="@string/time" />
+    <item
+        android:id="@+id/volume"
+        android:icon="@drawable/ic_volume"
+        android:title="@string/volume" />
+    <item
+        android:id="@+id/weight"
+        android:icon="@drawable/ic_weight"
+        android:title="@string/weight" />
+</menu>
