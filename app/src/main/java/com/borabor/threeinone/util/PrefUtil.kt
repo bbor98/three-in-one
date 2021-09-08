@@ -40,7 +40,7 @@ object PrefUtil {
     /*** Basic calculator prefs ***/
     fun setPrimaryTextBC(context: Context, value: String) {
         context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .edit()
             .putString(PRIMARY_TEXT_BC, value)
             .apply()
@@ -48,13 +48,13 @@ object PrefUtil {
 
     fun getPrimaryTextBC(context: Context): String? {
         return context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .getString(PRIMARY_TEXT_BC, "")
     }
 
     fun setSecondaryTextBC(context: Context, value: String) {
         context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .edit()
             .putString(SECONDARY_TEXT_BC, value)
             .apply()
@@ -62,14 +62,14 @@ object PrefUtil {
 
     fun getSecondaryTextBC(context: Context): String? {
         return context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .getString(SECONDARY_TEXT_BC, "")
     }
 
     /*** Scientific calculator prefs ***/
     fun setPrimaryTextSC(context: Context, value: String) {
         context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .edit()
             .putString(PRIMARY_TEXT_SC, value)
             .apply()
@@ -77,13 +77,13 @@ object PrefUtil {
 
     fun getPrimaryTextSC(context: Context): String? {
         return context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .getString(PRIMARY_TEXT_SC, "")
     }
 
     fun setSecondaryTextSC(context: Context, value: String) {
         context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .edit()
             .putString(SECONDARY_TEXT_SC, value)
             .apply()
@@ -91,14 +91,14 @@ object PrefUtil {
 
     fun getSecondaryTextSC(context: Context): String? {
         return context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .getString(SECONDARY_TEXT_SC, "")
     }
 
     /*** Stopwatch prefs ***/
     fun setTimerStateSW(context: Context, value: Int) {
         context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .edit()
             .putInt(TIMER_STATE_SW, value)
             .apply()
@@ -106,14 +106,14 @@ object PrefUtil {
 
     fun getTimerStateSW(context: Context): StopwatchFragment.TimerState {
         val ordinal = context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .getInt(TIMER_STATE_SW, 0)
         return StopwatchFragment.TimerState.values()[ordinal]
     }
 
     fun setUpdateTime(context: Context, value: Long) {
         context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .edit()
             .putLong(UPDATE_TIME, value)
             .apply()
@@ -121,26 +121,26 @@ object PrefUtil {
 
     fun getUpdateTime(context: Context): Long {
         return context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .getLong(UPDATE_TIME, 0)
     }
 
     fun setStartTimeSW(context: Context, value: Long) {
         context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .edit().putLong(START_TIME_SW, value)
             .apply()
     }
 
     fun getStartTimeSW(context: Context): Long {
         return context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .getLong(START_TIME_SW, 0)
     }
 
     fun setElapsedTime(context: Context, value: Long) {
         context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .edit()
             .putLong(ELAPSED_TIME, value)
             .apply()
@@ -148,27 +148,27 @@ object PrefUtil {
 
     fun getElapsedTime(context: Context): Long {
         return context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .getLong(ELAPSED_TIME, 0)
     }
 
     fun setLapState(context: Context, value: Boolean) {
         context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .edit().putBoolean(LAP_STATE, value)
             .apply()
     }
 
     fun getLapState(context: Context): Boolean {
         return context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .getBoolean(LAP_STATE, false)
     }
 
     fun setLapList(context: Context, value: HashMap<Int, String>?) {
         val jsonString = Gson().toJson(value)
         context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .edit()
             .putString(LAP_LIST, jsonString)
             .apply()
@@ -177,7 +177,7 @@ object PrefUtil {
     fun getLapList(context: Context): HashMap<Int, String>? {
         val defValue = Gson().toJson(HashMap<String, String>())
         val json = context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .getString(LAP_LIST, defValue)
         val token = object : TypeToken<HashMap<Int, String>?>() {}
         return Gson().fromJson<HashMap<Int, String>?>(json, token.type)
@@ -185,7 +185,7 @@ object PrefUtil {
 
     fun setLapCounter(context: Context, value: Int) {
         context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .edit()
             .putInt(LAP_COUNTER, value)
             .apply()
@@ -193,14 +193,14 @@ object PrefUtil {
 
     fun getLapCounter(context: Context): Int {
         return context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .getInt(LAP_COUNTER, 0)
     }
 
     /*** Countdown timer prefs ***/
     fun setTimerStateCD(context: Context, state: CountdownTimerFragment.TimerState) {
         context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .edit()
             .putInt(TIMER_STATE_CD, state.ordinal)
             .apply()
@@ -208,14 +208,14 @@ object PrefUtil {
 
     fun getTimerStateCD(context: Context): CountdownTimerFragment.TimerState {
         val ordinal = context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .getInt(TIMER_STATE_CD, 0)
         return CountdownTimerFragment.TimerState.values()[ordinal]
     }
 
     fun setRemainingTime(context: Context, value: Long) {
         context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .edit()
             .putLong(REMAINING_TIME, value)
             .apply()
@@ -223,13 +223,13 @@ object PrefUtil {
 
     fun getRemainingTime(context: Context): Long {
         return context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .getLong(REMAINING_TIME, 10)
     }
 
     fun setStartTimeCD(context: Context, value: Long) {
         context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .edit()
             .putLong(START_TIME_CD, value)
             .apply()
@@ -237,13 +237,13 @@ object PrefUtil {
 
     fun getStartTimeCD(context: Context): Long {
         return context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .getLong(START_TIME_CD, 0)
     }
 
     fun setEndTime(context: Context, value: Long) {
         context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .edit()
             .putLong(END_TIME, value)
             .apply()
@@ -251,14 +251,14 @@ object PrefUtil {
 
     fun getEndTime(context: Context): Long {
         return context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .getLong(END_TIME, 0)
     }
 
     fun setSbProgressList(context: Context, value: HashMap<String, Int>) {
         val jsonString = Gson().toJson(value)
         context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .edit()
             .putString(SB_PROGRESS_LIST, jsonString)
             .apply()
@@ -267,7 +267,7 @@ object PrefUtil {
     fun getSbProgressList(context: Context): HashMap<String, Int> {
         val defValue = Gson().toJson(hashMapOf("hour" to 0, "minute" to 0, "second" to 0))
         val json = context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .getString(SB_PROGRESS_LIST, defValue)
         val token = object : TypeToken<HashMap<String, Int>>() {}
         return Gson().fromJson(json, token.type)
@@ -276,7 +276,7 @@ object PrefUtil {
     /*** Counter prefs ***/
     fun setCount(context: Context, value: Int) {
         context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .edit()
             .putInt(COUNT, value)
             .apply()
@@ -284,13 +284,13 @@ object PrefUtil {
 
     fun getCount(context: Context): Int {
         return context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .getInt(COUNT, 0)
     }
 
     fun setInterval(context: Context, value: Int) {
         context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .edit()
             .putInt(INTERVAL, value)
             .apply()
@@ -298,7 +298,7 @@ object PrefUtil {
 
     fun getInterval(context: Context): Int {
         return context
-            .getSharedPreferences("com.borabor.allinone.util", Context.MODE_PRIVATE)
+            .getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
             .getInt(INTERVAL, 1)
     }
 }

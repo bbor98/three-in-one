@@ -72,7 +72,6 @@ object CalculationUtil {
                     val function = input.substring(startPosition, position)
                     x = parseOther()
                     x = when (function) {
-                        //"sqrt" -> sqrt(x)
                         "sin" -> sin(Math.toRadians(x.toDouble())).toFloat()
                         "cos" -> cos(Math.toRadians(x.toDouble())).toFloat()
                         "tan" -> tan(Math.toRadians(x.toDouble())).toFloat()

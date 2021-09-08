@@ -85,7 +85,6 @@ class StopwatchFragment : Fragment() {
         fabStopSW.setOnClickListener {
             vibratePhone(requireContext())
 
-            elapsedTime += timeInMillis
             handler.removeCallbacks(runnable)
             tvStopwatch.text = "00:00:00"
 

@@ -11,6 +11,7 @@ import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import com.borabor.threeinone.R
 import com.borabor.threeinone.util.ButtonUtil.addNumberValueToText
+import com.borabor.threeinone.util.ButtonUtil.invalidInputToast
 import com.borabor.threeinone.util.ButtonUtil.vibratePhone
 import com.borabor.threeinone.util.CalculationUtil
 import kotlinx.android.synthetic.*
@@ -31,7 +32,13 @@ class UnitConverterActivity : AppCompatActivity() {
 
     private var unitId = Unit.Other
 
-    private val angleValues = doubleArrayOf(1.0, 57.295779513, 0.9, 0.0002777778, 0.0166666667)
+    private val angleValues = doubleArrayOf(
+        1.0,
+        57.295779513,
+        0.9,
+        0.0002777778,
+        0.0166666667
+    )
 
     private val areaValues = doubleArrayOf(
         4046.8564224,
@@ -62,9 +69,19 @@ class UnitConverterActivity : AppCompatActivity() {
         1125899906842580.0
     )
 
-    private val energyValues = doubleArrayOf(1.0, 1000.0, 4.184, 4184.0)
+    private val energyValues = doubleArrayOf(
+        1.0,
+        1000.0,
+        4.184,
+        4184.0
+    )
 
-    private val forceValues = doubleArrayOf(1.0, 1000.0, 1000000.0, 0.00980665)
+    private val forceValues = doubleArrayOf(
+        1.0,
+        1000.0,
+        1000000.0,
+        0.00980665
+    )
 
     private val lengthValues = doubleArrayOf(
         0.000000001,
@@ -127,7 +144,13 @@ class UnitConverterActivity : AppCompatActivity() {
         1079252848800.0
     )
 
-    private val temperatureValues = doubleArrayOf(0.0, 1.0, 2.0, 3.0, 4.0)
+    private val temperatureValues = doubleArrayOf(
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0
+    )
 
     private val timeValues = doubleArrayOf(
         0.000000001,
@@ -222,8 +245,12 @@ class UnitConverterActivity : AppCompatActivity() {
         }
 
         btEqual.setOnClickListener {
-            vibratePhone(this)
-            convert()
+            try {
+                vibratePhone(this)
+                convert()
+            } catch (e: Exception) {
+                invalidInputToast(this)
+            }
         }
 
         fabForward.setOnClickListener {
@@ -415,7 +442,7 @@ class UnitConverterActivity : AppCompatActivity() {
                 selectedText.text = abbreviationArray[position]
 
                 when (unitId) {
-                    Unit.Currency -> toCurrency = parent.getItemAtPosition(position).toString()
+                    Unit.Currency -> toCurrency = abbreviationArray[position]
                     else -> toCoefficient = values[position]
                 }
                 convert()
