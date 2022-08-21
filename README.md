@@ -1,4 +1,7 @@
 # Three In One
+
+> **UPDATE:** This is my first Android project that I posted on GitHub, so its architecture is not good and has a bunch of spaghetti code. Check out [Three In One Compose MVVM](https://github.com/bbor98/three-in-one-compose-mvvm) for the rewritten version of this project, which is built with the modern UI toolkit Jetpack Compose, and implements the MVVM design pattern.
+
 Calculator, unit converter and timer in one app, written in Kotlin.
 
 <img src="https://user-images.githubusercontent.com/88214480/132383760-d1f47808-60bd-4bc7-b906-9ac03a72bc8d.jpg" width="270" height="600" title="Home Page">
